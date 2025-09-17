@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#FFF3E0">
+
+    <!-- Quote Display -->
+    <TextView
+        android:id="@+id/textGallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Motivational quote will appear here"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:lineSpacingExtra="6dp"
+        :layout_marginBottom="16dp"
+        android:textColor="#FF5722"
+        android:padding="20dp"
+        android:elevation="4dp"
+        android:gravity="center" />
+
+    <!-- New Quote Button -->
+    <Button
+        android:id="@+id/btnNewQuoteGallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="✨ New Quote"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="12dp" />
+
+</LinearLayout>
